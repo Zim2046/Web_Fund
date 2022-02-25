@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
 }
-
 .nav {
   background-color: rgba(29, 27, 27, 0.909);
   display: flex;
@@ -27,7 +26,6 @@ a {
   font-family: "Roboto", sans-serif;
   text-decoration-line: none;
 }
-
 .btn {
   border: solid black;
   color: white;
@@ -36,11 +34,9 @@ a {
   padding: 2px 9px;
   box-shadow: 3px 3px black;
 }
-
 li {
   padding-right: 5px;
 }
-
 .active {
   font-weight: 500;
 }
