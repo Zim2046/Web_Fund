@@ -2,10 +2,12 @@
   padding: 0px;
   margin: 0px;
 }
+
 .header {
   text-align: center;
   font-size: larger;
 }
+
 #container {
   background-color: rgba(187, 177, 177, 0.797);
   padding: 20px;
