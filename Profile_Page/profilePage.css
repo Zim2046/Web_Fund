@@ -14,16 +14,17 @@
   display: flex;
 }
 
+.col-bg {
+  background-color: white;
+}
 /* --- START LEFT CONTENT ---*/
 .left-col {
-  background-color: white;
   flex: 3;
   padding-left: 11px;
 }
 
 /* --- START RIGHT CONTENT ---*/
 .right-col {
-  background-color: white;
   flex: 2;
   padding-right: 44px;
 }
@@ -69,26 +70,24 @@
 li {
   padding-right: 5px;
 }
-.active {
-  font-weight: 500;
-}
 
 /* --------- START FOR USER CARD -------- */
-.card-positioning-left-col {
-  margin: auto;
-  width: 80%;
-  background-color: white;
-  border: #cccccc solid 3px;
-  margin-top: 30px;
-  margin-right: 15px;
-}
-.card-positioning-right-col {
+/* Can't reduce these two below without messing up middle alignment */
+.card-positioning-right {
   margin: auto;
   width: 80%;
   background-color: white;
   border: #cccccc solid 3px;
   margin-top: 30px;
   margin-left: 15px;
+}
+.card-positioning-left {
+  margin: auto;
+  width: 80%;
+  background-color: white;
+  border: #cccccc solid 3px;
+  margin-top: 30px;
+  margin-right: 15px;
 }
 
 .banner-user {
